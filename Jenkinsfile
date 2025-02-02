@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git url: '', branch: 'main'
+                git url: 'https://github.com/torresJ04/pedelogo-catalogo', branch: 'main'
             }
         }
         stage('Build Image') {
